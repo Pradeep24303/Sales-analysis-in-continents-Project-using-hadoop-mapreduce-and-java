@@ -6,9 +6,7 @@ hadoop fs -put Sales.csv input  //input data to csv files
 
 hadoop fs -rm -r -f o1         //delete from hdfs
 
-hadoop jar test1.jar testHadoop input o1  //operating mapreduce
-
-to browse hdfs http://localhost:50070/ open in browser
+hadoop jar test1.jar testHadoop input o1 
 
 project folder contains the output of mapreduce
 
